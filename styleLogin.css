@@ -1,0 +1,124 @@
+
+#myVideo {
+    z-index: 1;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+#box{
+    z-index: 2;
+    position:fixed;
+    min-width: 100%;
+    min-height: 100%;
+    background: #04033c85;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: Syne Mono;
+}
+
+#title{
+    z-index: 3;
+    position: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 200px;
+    background-color: #ff7f5000;
+    font-size: 2.1vh;
+    color: #6aeaea;
+    text-shadow: -1px 0 red, 0 1px red, 1px 0 black, 0 -1px black;
+    transition: 0.3s ease;
+}
+#welcome{
+    position: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s ease;
+}
+
+#neuromancer{
+    position: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 65px;
+}
+
+#forms{
+    z-index: 3;
+    position: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background: #050c27a6;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 5px;
+    border-bottom: solid 2px #00afff;
+    color: #6aeaea;
+    text-shadow: -1px 0 red, 0 1px red, 1px 0 black, 0 -1px black;
+    font-size: 2vh;
+    transition: 0.2s ease;
+}
+
+#loginArea{
+    position: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s ease;
+}
+
+#registerArea{
+    position: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 214px;
+    transition: 0.3s ease;
+}
+
+
+input{
+    margin-bottom: 4px;
+    border: none;
+    background: #0000ff00;
+    border: 1px solid #00afff;
+    font-family: Syne Mono;
+    color: #6aeaea;
+    text-shadow: -1px 0 red, 0 1px red, 1px 0 black, 0 -1px black;
+    transition: 0.3s ease;
+}
+
+.button{
+    background-color: #000000;
+    color: #6aeaea;
+    text-align: center;
+    width: 100px;
+    transition: 0.3s ease;
+}
+
+.button:hover{
+    background-color: #533a65;
+}

@@ -1,0 +1,139 @@
+#myVideo {
+    z-index: 1;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+#box{
+    z-index: 2;
+    position:fixed;
+    min-width: 100%;
+    min-height: 100%;
+    background: #04033c85;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: Syne Mono;
+}
+
+
+#header{
+    z-index: 3;
+    position: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #ff7f5000;
+    font-size: 2.1vh;
+    color: #6aeaea;
+    text-shadow: -1px 0 red, 0 1px red, 1px 0 black, 0 -1px black;
+    transition: 0.3s ease;
+}
+
+#contentForum{
+    z-index: 3;
+    position: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background: #020a27e6;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 5px;
+    border-top: solid 2px #00afff;
+    color: #6aeaea;
+    text-shadow: -1px 0 red, 0 1px red, 1px 0 black, 0 -1px black;
+    font-size: 2vh;
+    transition: 0.3s ease;
+}
+
+input{
+    margin-bottom: 4px;
+    border: none;
+    background: #0000ff00;
+    border: 1px solid #00afff;
+    font-family: Syne Mono;
+    color: #6aeaea;
+    text-shadow: -1px 0 red, 0 1px red, 1px 0 black, 0 -1px black;
+    transition: 0.2s ease;
+}
+
+#logout{
+    border: 1px solid #00afff;
+    transition: 0.2s ease;
+}
+
+#logout input{
+    border:none;
+
+
+}
+
+#logout:hover{
+    background-color: #533a65
+}
+
+.button{
+    background-color: #000000;
+    color: #6aeaea;
+    text-align: center;
+    width: 100px;
+    transition: 0.2s ease;
+}
+
+.button:hover{
+    background-color: #533a65;
+}
+
+.delete{
+    border: none;
+    border: 1px solid #00afff;
+    font-family: Syne Mono;
+    background-color: #000000;
+    color: #6aeaea;
+    width: 150px;
+    text-shadow: -1px 0 red, 0 1px red, 1px 0 black, 0 -1px black;
+}
+
+.delete:hover{
+    background-color: #533a65;
+
+}
+
+#makeThread{
+    transition: 0.3s ease;
+    margin-top: 20px;
+}
+
+#thread{
+    color: #6aeaea;
+    text-shadow: -1px 0 red, 0 1px red, 1px 0 black, 0 -1px black;
+    border-bottom: 1px solid #D35B89;
+    width: 100%;
+    text-align: center;
+    transition: 0.3s ease;
+}
+
+.threadLinks{
+
+    color: inherit;
+    color: #6aeaea;
+    text-decoration: none;
+    text-shadow: -1px 0 red, 0 1px red, 1px 0 black, 0 -1px black;
+}
+
+ #thread:hover{
+    background-color: #56359036;
+
+}
